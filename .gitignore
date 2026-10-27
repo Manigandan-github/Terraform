@@ -1,0 +1,12 @@
+# local .terraform dir
+.terraform/*
+
+# tf state files
+*.tfstate
+*.tfstate.backup
+
+# tf variablr files, may include sensitive data
+*.tfvars
+
+LICENSE.TXT
+terraform.exe
